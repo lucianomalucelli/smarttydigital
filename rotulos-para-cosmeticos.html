@@ -11,6 +11,12 @@
   gtag('js', new Date());
   gtag('config', 'G-QVSR2519BS');
 </script>
+<script>
+  document.addEventListener('click', function(e){
+    var link = e.target.closest('a[href*="wa.me"]');
+    if (link) { gtag('event', 'contato_whatsapp', { link_url: link.href }); }
+  });
+</script>
 <title>Rótulos para Cosméticos Artesanais | Smartty Digital</title>
 <meta name="description" content="Rótulos personalizados para cosméticos artesanais — sabonetes, hidratantes, óleos e sérum. Resistentes a água e óleo, a partir de 50 unidades.">
 <link rel="canonical" href="https://smarttydigital.com.br/rotulos-para-cosmeticos.html">

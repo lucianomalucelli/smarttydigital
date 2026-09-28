@@ -11,6 +11,12 @@
   gtag('js', new Date());
   gtag('config', 'G-QVSR2519BS');
 </script>
+<script>
+  document.addEventListener('click', function(e){
+    var link = e.target.closest('a[href*="wa.me"]');
+    if (link) { gtag('event', 'contato_whatsapp', { link_url: link.href }); }
+  });
+</script>
 <title>Etiqueta Artesanal vs Industrial | Smartty Digital</title>
 <meta name="description" content="Rótulo caseiro, adesivo comum ou etiqueta profissional? Entenda a diferença real entre artesanal e industrial.">
 <link rel="canonical" href="https://smarttydigital.com.br/blog/etiqueta-artesanal-vs-industrial.html">

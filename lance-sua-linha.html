@@ -11,6 +11,12 @@
   gtag('js', new Date());
   gtag('config', 'G-QVSR2519BS');
 </script>
+<script>
+  document.addEventListener('click', function(e){
+    var link = e.target.closest('a[href*="wa.me"]');
+    if (link) { gtag('event', 'contato_whatsapp', { link_url: link.href }); }
+  });
+</script>
 <title>Lance sua Linha Completa Sem Travar o Estoque | Smartty Digital</title>
 <meta name="description" content="Lançar uma linha completa não devia exigir clichê, faca de corte e estoque parado de rótulo. Imprima só o que precisa de cada modelo.">
 <link rel="canonical" href="https://smarttydigital.com.br/lance-sua-linha.html">

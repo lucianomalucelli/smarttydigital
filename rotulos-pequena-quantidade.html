@@ -11,6 +11,12 @@
   gtag('js', new Date());
   gtag('config', 'G-QVSR2519BS');
 </script>
+<script>
+  document.addEventListener('click', function(e){
+    var link = e.target.closest('a[href*="wa.me"]');
+    if (link) { gtag('event', 'contato_whatsapp', { link_url: link.href }); }
+  });
+</script>
 <title>Rótulos em Pequenas Tiragens | Smartty Digital</title>
 <meta name="description" content="Imprima rótulos personalizados em pequenas tiragens, a partir de 50 unidades por modelo — menor desembolso, sem abrir mão da qualidade profissional.">
 <link rel="canonical" href="https://smarttydigital.com.br/rotulos-pequena-quantidade.html">
